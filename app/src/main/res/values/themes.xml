@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Using Theme.AppCompat for minSdk 17 compatibility -->
+    <style name="Theme.Hellokitkat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item> <!-- Used for status bar on older APIs -->
+        <item name="colorAccent">@color/teal_200</item> <!-- Used for accent color -->
+
+        <!-- You can also customize other attributes here if needed -->
+        <!-- For example, to remove the ActionBar: -->
+        <!-- <item name="windowActionBar">false</item> -->
+        <!-- <item name="windowNoTitle">true</item> -->
+    </style>
+
+    <!-- Example of a theme without an ActionBar -->
+    <style name="Theme.Hellokitkat.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+</resources>
